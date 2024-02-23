@@ -1256,9 +1256,9 @@ body .nav-menu ul .active > a {
 .menus-area .button-group .active2:hover i {
   background: #f10909 !important;
 }
-.menus-area .item {
+/* .menus-area .item {
   background: #f9f9f9;
-}
+} */
 .menus-area .item-wrap {
   position: relative;
   z-index: 999;
@@ -4103,7 +4103,7 @@ body .nav-menu ul .active > a {
   margin-bottom: 76px;
 }
 .menus-page-area .item {
-  background: #fff;
+  /* background: #fff; */
   margin-bottom: 25px;
 }
 .menus-page-area .item .item-wrap {

@@ -100,37 +100,58 @@
     if($(".menu-gallery").length){
       $(".menu-gallery").owlCarousel({
           // Most important owl features
-          items : 4,  
+          items : 6,  
           nav: true,
-          navText: false,  
-          dots: false,
+          navText: true,  
+          dots: true,
           loop: true,
-          autoplay: false,
+          autoplay: true,
           // Responsive options
           responsive: true,
           responsive:{
           0:{
-            items:1, // In this configuration 1 is enabled from 0px up to 479px screen size
-            nav: false, // from 480 to max 
+            items:3, // In this configuration 1 is enabled from 0px up to 479px screen size
+            nav: true, // from 480 to max 
             dots: true,
+            autoplay: true,
           },
           600:{
-            items:2, // from this breakpoint 678 to 959
+            items:4, // from this breakpoint 678 to 959
             nav: false, // from 480 to max 
             dots: true,
+            autoplay: true,
+            nav: true
           },
           960:{
 
             items:4, // from this breakpoint 960 to 1199
             margin:20, // and so on...
-            center:false, 
+            center:false,
+            dots: true, 
+            autoplay: true,
+            nav: true
+
+          },
+
+          1199:{
+
+            items:5, // from this breakpoint 960 to 1199
+            margin:20, // and so on...
+            center:false,
+            dots: true, 
+            autoplay: true,
+            nav: true
 
           },
 
           1200:{
 
-            items:4,
+            items:6,
             margin: 0,
+            dots: true,
+            autoplay: true,
+            nav: true
+            
 
           }
         } 
